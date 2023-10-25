@@ -13,6 +13,7 @@ if(!cart){
 
 function saveToLocalStorage(){
       localStorage.setItem('cart', JSON.stringify(cart));
+      
 }
 
 export function addToCart(productId){
@@ -35,6 +36,7 @@ export function addToCart(productId){
     }
 
     saveToLocalStorage();
+    
 }
 
 export function removeFromCart(productId){
