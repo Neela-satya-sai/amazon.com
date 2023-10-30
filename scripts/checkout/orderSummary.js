@@ -113,7 +113,7 @@ export function renderOrderSummary(){
 
       document.querySelectorAll('.js-delete-link').forEach((link)=>{
             link.addEventListener('click', ()=>{
-              // console.log('delete');
+             //console.log('delete');
               const productId = link.dataset.productId;
                 removeFromCart(productId);
                 //console.log(cart);
